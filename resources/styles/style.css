@@ -1,0 +1,635 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+  --primary: #072ac8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a { 
+  text-decoration: none;  
+}
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------ INDEX html ------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------ Splash page ------------------------------ */
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner {
+  border: 0px solid #f3f3f3;
+  border-top: 5px solid #e9c200;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform:rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ------------------------------ Back to TOP button ------------------------------ */
+
+#scrollToTopBtn {
+  display: none; /* button initially hidden */
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* ------------------------------ Navbar ------------------------------ */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 4rem;
+}
+
+.header-menu {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+
+}
+
+.header-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu li {
+  display: inline-block;
+}
+
+.header-menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #626262;
+  font-weight: bold;
+}
+
+.header-menu li a:hover {
+  color: #072ac8;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.button {
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background-color: #072ac8;
+  cursor: pointer;
+  
+}
+
+.button:hover {
+  background-color: rgb(36, 36, 36);
+}
+
+/* ------------------------------ Hero ------------------------------ */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  max-width: 60rem;
+
+}
+
+.hero-content {
+  padding-top: 2rem;
+  max-width: 40rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  color: #626262;
+  font-size: 1.2rem;
+  margin: 1rem 4rem 3rem 0rem;
+}
+
+.hero label {
+  color: #626262;
+  font-weight: 500;
+  padding-left: 8rem;
+  padding-right: 0.5rem;
+}
+
+.hero-button {
+  display: inline;
+}
+
+.hero-img-container {
+  max-width: 30rem;
+  position: relative;
+  }
+
+.hero-img {
+  height: 30rem;
+}
+
+.hero-img-card1 {
+  height: 16rem;
+  position: absolute;
+  right: 250px;
+  bottom: 250px;
+}
+
+.hero-img-card2 {
+  height: 16rem;
+  position: absolute;
+  top: 350px;
+  left: 270px;
+}
+/* ------------------------------ Partners ------------------------------ */
+
+.carousel {
+  max-width: 60rem;
+  overflow: hidden;
+  padding: 5rem 0rem;
+}
+
+.carousel-inner {
+  display: flex;
+  max-width: 80rem;
+  transition: transform 0.1s ease;
+}
+
+.carousel-item {
+  flex: 0 0 33.33%; /* Ancho de cada imagen (33.33% para mostrar 3 imágenes) */
+  align-items: center;
+}
+
+.carousel-item img {
+  width: 30%;
+  height: auto;
+}
+
+/* ------------------------------ Recent projects ------------------------------ */
+
+.projects-container {
+  display: flex;
+  max-width: 63rem;
+  flex-direction: column;
+  justify-content:space-between;
+  align-content: center;
+  
+}
+
+.title {
+  font-size: 2rem;
+  padding-bottom: 4rem;
+}
+
+.articles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: rem 0rem;
+}
+
+.article {
+  background-color: white;
+  padding: 2rem;
+  height: 30rem;
+  width: 19.3rem;
+  margin: 0.5rem;
+  position: relative;
+}
+
+.article h2 {
+  font-size: 1rem;
+  padding-top: 12rem;
+}
+
+.article p {
+  padding: 1rem 0rem;
+}
+
+.article a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-img {
+  width: 19.3rem;
+  height: 12rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* ------------------------------ Client reviews ------------------------------ */
+
+.testimonial { 
+  background-color: rgb(47, 44, 59);
+  background-image: url("/Projects/Project1/resources/images/testimonial-section/orbit.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: stretch;
+  max-width: 80rem;
+  height: 28rem;
+  margin: 2rem;
+}
+
+.central-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 2;
+}
+
+.central-text h3 {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.central-text q {
+  color: rgb(205, 187, 0);
+  font-size: 1.2rem;
+}
+.left-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  flex-grow: 1;
+}
+
+.right-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  flex-grow: 1;
+}
+
+.emoji {
+  width: 8rem;
+  margin: 1rem;
+}
+
+.author-profile img {
+  width:40px;
+  height:40px;
+  border-radius:20px; 
+}
+
+#author {
+  color: rgb(126, 162, 230);
+  font-size: 0.85rem;
+}
+
+#authorWeb {
+  color: white;
+  font-size: 0.7rem;
+}
+
+
+/* ------------------------------ Services ------------------------------ */
+
+#services { 
+  max-width: 60rem;
+  margin: 2rem;
+}
+
+.services-container {
+  display: flex;
+}
+
+.tag {
+  background-color: white;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.tag img {
+  background-color: rgb(216, 233, 239);
+  width:60px;
+  height:60px;
+  padding: 0.7rem;
+  border-radius:30px;
+  margin: 1rem;
+}
+
+.tag h3 {
+  padding: 1rem 0rem;
+  font-size: 1rem;
+}
+
+.tag p {
+  padding: 1.4rem 0rem;
+}
+
+.tag a {
+  text-decoration: none;
+  color: #072ac8;
+  font-weight: 500;
+}
+
+
+/* ------------------------------ Questions for ---------------------------- */
+
+.newsletter {
+  background-color: #e9c200;
+  width: 60rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+  margin: 5rem;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.newsletter p {
+  font-size: 0.8rem;
+  color: #626262;
+  padding-bottom: 3rem;
+}
+
+.newsletter input {
+  width: 25rem;
+  height: 3rem;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+/* ------------------------------ Footer ------------------------------ */
+
+.footer-container {
+  width: 60rem;
+  margin: 4rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left address {
+  color: #626262;
+  width: 15rem;
+  padding-top: 1rem;
+}
+
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.col {
+  display: table-cell;
+  padding: 0rem 2rem 2rem 1rem;
+}
+
+.col a {
+  text-decoration: none;
+  color: #072ac8;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+/* -------------------------------------------------------------------------- */
+/* ------------------------------ PROJECT html ------------------------------ */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------ Project main ------------------------------ */
+
+#mainProject {
+  width: 60rem;
+  margin: 3rem;
+}
+
+#mainProject img {
+  width: 60rem;
+  height: 25rem;
+  margin: 4rem 0rem;
+  object-fit: cover;
+}
+
+#mainProject h2 {
+  font-size: 3.5rem;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  color: #626262;
+  margin-top: 2rem;
+  width: 60rem;
+}
+
+.articleSubtitle {
+  width: 35rem;
+}
+
+.date {
+  width: 15rem;
+}
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ CONTACT-US html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* ------------------------------ Form ------------------------------ */
+
+#main {
+width: 70%;
+max-width: 60rem;
+}
+
+#main h1 {
+  font-size: 3rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form label {
+  color: #626262;
+}
+
+#form input {
+  background-color: rgb(222, 222, 222);
+  border: none;
+  padding: 1rem;
+}
+
+#name {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.emailAndPhone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emailContainer {
+  width: 49%;
+}
+
+.phoneContainer {
+  width: 49%;
+}
+#email {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+#phone {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+#message {
+  font-family:monospace;
+  width: 100%;
+  height: 10rem;
+  margin: 1rem 0rem;
+  vertical-align: top;
+  resize: vertical;
+  background-color: rgb(222, 222, 222);
+  border: none;
+  padding: 1rem;
+
+}
+
+.contactButton {
+  width: 100%;
+}
+
+.result {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+#suceedMessage {
+  background-color: rgb(14, 193, 14);
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  color: white;
+  text-align: start;
+}
+
+#errorMessage {
+  background-color: rgb(193, 14, 14);
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  color: white;
+  text-align: start;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ About html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* Your CSS code goes here */
+
+/* --------------------------------------------------------------------------- */
+/* ------------------------------ MEDIA QUERIES ------------------------------ */
+/* --------------------------------------------------------------------------- */
+
+/* ------------------------- Smaller than 990px (tablet) ------------------------- */
+@media (max-width: 990px) {
+  /* Your CSS code goes here */
+}
+
+/* ------------------------- Smaller than 766px (mobile) ------------------------- */
+@media (max-width: 766px) {
+  /* Your CSS code goes here */
+}
+
+/* ------------------------------ Hamburguer menu ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Alert ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Sticky scroll bar ------------------------------ */
+
+/* Your CSS code goes here */
