@@ -5,10 +5,7 @@
 // Loading effect
 window.addEventListener('load', function() {
   const loading = document.querySelector('.loading');
-  this.setTimeout(() => {
-    loading.style.display = 'none';    
-  }, 500);
-
+  loading.style.display = 'none';    
 });
 
 
