@@ -45,7 +45,7 @@ function newChildById(parent, data){
     newChild.className = "post";
     newChild = document.createElement("div");
     newChild.innerHTML = `
-    <div id="${data[id-1].id}">    
+    <div id="${data[id-1].id}" class="mainArticle">    
         <h2>${data[id-1].title}</h2>
         <div class="subtitle">
             <p class="articleSubtitle">${data[id-1].title}</p>
