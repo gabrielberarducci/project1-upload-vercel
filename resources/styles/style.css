@@ -1306,11 +1306,19 @@ max-width: 60rem;
     .phoneContainer {
       width: auto;
     }
-     
+ 
+/* --------------------------- AboutUs.HTML - Smaller than 766px (mobile) --------------------------- */
+
+    #videos {
+      margin-top: 25rem;
+    }
+
+    .card {
+      margin: 2rem 0rem;
+    }
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
-
 
 
 /* ------------------------------ Alert ------------------------------ */
