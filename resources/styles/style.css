@@ -223,6 +223,11 @@ a {
 .carousel-item img {
   width: 30%;
   height: auto;
+  filter: grayscale(100%);
+}
+
+.carousel-item img:hover {
+  filter: grayscale(0%);
 }
 
 /* ------------------------------ Recent projects ------------------------------ */
