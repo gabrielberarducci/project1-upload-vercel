@@ -334,6 +334,7 @@ a {
   color: rgb(205, 187, 0);
   font-size: 1.2rem;
 }
+
 .left-images {
   display: flex;
   flex-direction: column;
@@ -493,10 +494,6 @@ a {
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------ Project main ------------------------------ */
-
-#mainProject {
-
-}
 
 .mainArticle {
   display: flex;
@@ -1034,7 +1031,221 @@ max-width: 60rem;
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
-  /* Your CSS code goes here */
+  
+/* ---------------------------- Hero Section - Smaller than 766px (mobile)------------------------------- */
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 60rem;
+  
+  }
+  
+  .hero-content {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    max-width: 40rem;
+  }
+  
+  .hero h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero p {
+    color: #626262;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem 4rem 3rem 0rem;
+  }
+  
+  .hero label {
+    color: #626262;
+    font-weight: 500;
+    padding-left: 8rem;
+    padding-right: 0.5rem;
+  }
+  
+  .hero-button {
+    display: inline;
+  }
+  
+  .hero-img-container {
+    max-width: 30rem;
+    position: relative;
+    }
+  
+  .hero-img {
+    max-height: 25rem;
+  }
+  
+  .hero-img-card1 {
+    display: none;
+    height: 16rem;
+    position: absolute;
+    right: 250px;
+    bottom: 250px;
+  }
+  
+  .hero-img-card2 {
+    display: none;
+    height: 16rem;
+    position: absolute;
+    top: 350px;
+    left: 270px;
+  }
+
+/* ----------------------------- Carousel Section - Smaller than 766px (mobile)---------------------------- */
+
+/*------ Hothing to do here -----------*/
+
+/* ------------------------------Projects Section - Smaller than 766px (mobile) ------------------------------- */
+
+
+  .projects-container {
+    display: flex;
+    max-width: 53rem;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: center;
+    margin: 2rem 0rem;
+    
+  }
+
+  .title {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+  }
+
+  .articles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:start;
+    padding: rem 0rem;
+  }
+
+  .article {
+    background-color: white;
+    padding: 2rem;
+    height: 27rem;
+    width: 35rem;
+    margin: 1.0rem;
+    position: relative;
+  }
+
+  .article h2 {
+    font-size: 1rem;
+    padding-top: 12rem;
+  }
+
+  .article p {
+    padding: 2rem 0rem;
+  }
+
+  .article a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .project-img {
+    width: 35rem;
+    height: 12rem;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+/* ------------------------Testimonial Section - Smaller than 766px (mobile)----------------------------- */
+
+  .testimonial { 
+    background-color: rgb(47, 44, 59);
+    background-image: url("/Projects/Project1/resources/images/testimonial-section/orbit.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: stretch;
+    max-width: 53rem;
+    height: 23rem;
+    margin: 2rem 0rem;
+  }
+
+  .central-text {
+    padding: 2rem 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 2;
+  }
+
+  .left-images {
+    display: none;
+  }
+  
+  .right-images {
+    display: none;
+  }
+
+/* ------------------------- Services Section - Smaller than 766px (mobile) --------------------------- */
+
+  .services-container {
+    justify-content: center;
+  }
+
+  .tag {
+    width: 80%;
+    height: auto;
+  }
+
+/* --------------------------- Newsletter Section - Smaller than 766px (mobile) --------------------------- */
+
+  .newsletter {
+    background-color: #ffc123;
+    width: 100%;
+    max-width: 60rem;
+    height: 20rem;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    margin: 5rem;
+  }
+
+  .newsletter h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .newsletter p {
+    font-size: 0.8rem;
+    color: #626262;
+    padding-bottom: 1rem;
+  }
+
+  .newsletter input {
+    width: 90%;
+    height: 3rem;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .newsletter .button {
+    width: 90%;
+  }
+
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
