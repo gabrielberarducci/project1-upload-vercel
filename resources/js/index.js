@@ -10,10 +10,6 @@ window.addEventListener('load', function() {
 });
 
 
-// Scroll to TOP section
-window.onscroll = function() {
-  scrollFunction();
-};
 
 function scrollFunction() {
   var scrollToTopBtn = document.getElementById("scrollToTopBtn");
@@ -39,3 +35,9 @@ getPosts().then((data) => {
   newRandomChild(projectsTabsParent,data,2);
   newRandomChild(projectsTabsParent,data,3);
 })
+
+
+// Scroll to TOP section
+window.onscroll = function() {
+  scrollFunction();
+};
