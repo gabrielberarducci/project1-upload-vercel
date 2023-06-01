@@ -206,23 +206,35 @@ a {
 .carousel {
   max-width: 60rem;
   overflow: hidden;
-  padding: 5rem 0rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
 }
 
 .carousel-inner {
   display: flex;
   max-width: 80rem;
-  transition: transform 0.1s ease;
+  animation: carousel-animation 25s linear infinite;
+}
+
+
+@keyframes carousel-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-233.5%);
+  }
 }
 
 .carousel-item {
-  flex: 0 0 33.33%; /* Ancho de cada imagen (33.33% para mostrar 3 imágenes) */
-  align-items: center;
+  flex: 0 0 33.33%;
+  align-items:center;
+  justify-content: center;
 }
 
 .carousel-item img {
-  width: 30%;
-  height: auto;
+  width: 50%;
+  height: 80%;
   filter: grayscale(100%);
 }
 
