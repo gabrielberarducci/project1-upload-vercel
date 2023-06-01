@@ -489,11 +489,10 @@ a {
   font-weight: 500;
   font-size: 0.9rem;
 }
+
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
 /* -------------------------------------------------------------------------- */
-
-/* ------------------------------ Project main ------------------------------ */
 
 .mainArticle {
   display: flex;
@@ -537,8 +536,6 @@ a {
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
-
-/* ------------------------------ Form ------------------------------ */
 
 #main {
 width: 70%;
@@ -633,9 +630,8 @@ max-width: 60rem;
 }
 
 /* ----------------------------------------------------------------------------- */
-/* ------------------------------ About html ------------------------------ */
-/* -----------------------------------------------
------------------------------- */
+/* ------------------------------ About html ----------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
 
 .aboutUsTitle {
@@ -1214,11 +1210,7 @@ max-width: 60rem;
     max-width: 60rem;
     height: 20rem;
     display: flex;
-    flex-shrink: 1;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
     padding: 3rem;
     margin: 5rem;
   }
@@ -1246,6 +1238,75 @@ max-width: 60rem;
     width: 90%;
   }
 
+/* --------------------------- Footer Section - Smaller than 766px (mobile) --------------------------- */
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    width: 100%;
+    padding: 2rem;
+    padding-bottom: 6rem;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-left address {
+    text-align: center;
+    color: #626262;
+    padding-top: 1rem;
+  }
+  
+  .table {
+    margin-top: 2rem;
+    text-align: center;
+    display: table;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .col {
+    display: table-cell;
+    padding: 0rem 3rem 2rem 3rem;
+  }
+  
+  .col a {
+    text-decoration: none;
+    color: #072ac8;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+/* --------------------------- ContactUs.HTML - Smaller than 766px (mobile) --------------------------- */
+
+  #main {
+    width: 95%;
+    }
+    
+    #main h1 {
+      font-size: 2rem;
+    }
+
+    .emailAndPhone {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+    }
+    
+    .emailContainer {
+      width: auto;
+    }
+    
+    .phoneContainer {
+      width: auto;
+    }
+     
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
