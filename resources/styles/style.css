@@ -213,7 +213,7 @@ a {
 .carousel-inner {
   display: flex;
   max-width: 80rem;
-  animation: carousel-animation 25s linear infinite alternate;
+  animation: carousel-animation 20s linear infinite;
 }
 
 
@@ -234,7 +234,7 @@ a {
 
 .carousel-item img {
   width: 50%;
-  height: 80%;
+  height: auto;
   filter: grayscale(100%);
 }
 
