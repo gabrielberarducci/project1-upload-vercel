@@ -213,7 +213,7 @@ a {
 .carousel-inner {
   display: flex;
   max-width: 80rem;
-  animation: carousel-animation 25s linear infinite;
+  animation: carousel-animation 25s linear infinite alternate;
 }
 
 
