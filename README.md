@@ -27,7 +27,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 <div align="center">
   <img src="./resources/readMe/wu.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
-  <a href="https://gabrielberarducci.vercel.app/">Visit Website</a>
+  <a href="https://gabrielberarducci.vercel.app/">Visit The Website</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -72,9 +72,9 @@ El proyecto esta 100% realizado en HTML, CSS y Javascript.
 No se utilizaron ningun tipo de frameworks o bibliotecas fuera de los estandares de cada lenguaje. 
 La diagramacion de las tareas y el seguimiento del proyecto fue llevado a cabo usando la plataforma gratuita Trello. 
 Todo el codigo fue escrito y debugueado usando la herramienta VSCode y el navegador Chrome, bajo el sistema operativo Windows 11.  
-El versionado y gestion de archivos fue realizado con Git y almacenado en la plataforma GitHub con acceso publico para todo el mundo atraves del siguiente <p>(<a href="https://github.com/gabrielberarducci/project1-upload-vercel">link.</a>)</p>
+El versionado y gestion de archivos fue realizado con Git y almacenado en la plataforma GitHub con acceso publico para todo el mundo atraves del siguiente <a href="https://github.com/gabrielberarducci/project1-upload-vercel">link.</a>
 
-Finalmente el deploy se hizo sobre la plataforma de uso gratuito Vercel, y pueden acceder a la version de produccion atraves del siguiente <p>(<a href="hhttps://gabrielberarducci.vercel.app/">link.</a>)</p>
+Finalmente el deploy se hizo sobre la plataforma de uso gratuito Vercel, y pueden acceder a la version de produccion atraves del siguiente <a href="hhttps://gabrielberarducci.vercel.app/">link.</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
