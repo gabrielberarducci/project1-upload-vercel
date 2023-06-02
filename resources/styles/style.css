@@ -1128,8 +1128,7 @@ max-width: 60rem;
   .article {
     background-color: white;
     padding: 2rem;
-    height: 27rem;
-    width: 35rem;
+    height:fit-content;
     margin: 1.0rem;
     position: relative;
   }
@@ -1149,7 +1148,6 @@ max-width: 60rem;
   }
 
   .project-img {
-    width: 35rem;
     height: 12rem;
     object-fit: cover;
     position: absolute;
