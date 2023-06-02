@@ -65,7 +65,6 @@ a {
 #scrollToTopBtn {
   display: none; /* button initially hidden */
   position: fixed;
-  
   bottom: 0;
   cursor: pointer;
   padding: 1rem;
@@ -77,7 +76,7 @@ a {
   z-index: 999;
 }
 
-/* ------------------------------ Navbar ------------------------------ */
+/* ------------------------------ Header Section ------------------------------ */
 
 .header {
   width: 100%;
@@ -91,7 +90,6 @@ a {
   display: inline-block;
   align-items: center;
   text-align: center;
-
 }
 
 .header-menu ul {
@@ -127,7 +125,6 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  
 }
 
 .button {
@@ -138,20 +135,18 @@ a {
   color: white;
   background-color: #072ac8;
   cursor: pointer;
-  
 }
 
 .button:hover {
   background-color: rgb(36, 36, 36);
 }
 
-/* ------------------------------ Hero ------------------------------ */
+/* ------------------------------ Hero Section ------------------------------ */
 
 .hero {
   display: flex;
   justify-content: space-around;
   max-width: 60rem;
-
 }
 
 .hero-content {
@@ -184,7 +179,7 @@ a {
 .hero-img-container {
   max-width: 30rem;
   position: relative;
-  }
+}
 
 .hero-img {
   height: 30rem;
@@ -218,7 +213,6 @@ a {
   animation: carousel-animation 20s linear infinite;
 }
 
-
 @keyframes carousel-animation {
   0% {
     transform: translateX(0);
@@ -244,7 +238,7 @@ a {
   filter: grayscale(0%);
 }
 
-/* ------------------------------ Recent projects ------------------------------ */
+/* ------------------------------ Projects Section ------------------------------ */
 
 .projects-container {
   display: flex;
@@ -252,7 +246,6 @@ a {
   flex-direction: column;
   justify-content:space-between;
   align-content: center;
-  
 }
 
 .title {
@@ -301,8 +294,7 @@ a {
   left: 0;
 }
 
-
-/* ------------------------------ Client reviews ------------------------------ */
+/* ------------------------------ Testimonials Section ------------------------------ */
 
 .testimonial { 
   background-color: rgb(38, 45, 78);
@@ -372,8 +364,7 @@ a {
   font-size: 0.7rem;
 }
 
-
-/* ------------------------------ Services ------------------------------ */
+/* ------------------------------ Services Section ------------------------------ */
 
 #services { 
   max-width: 60rem;
@@ -415,7 +406,6 @@ a {
   color: #072ac8;
   font-weight: 500;
 }
-
 
 /* ------------------------------ Newsletter Section ---------------------------- */
 
@@ -488,9 +478,9 @@ a {
   font-weight: 500;
 }
 
-/* -------------------------------------------------------------------------- */
-/* ------------------------------ PROJECT html ------------------------------ */
-/* -------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------- PROJECT html --------------------------------- */
+/* ------------------------------------------------------------------------------- */
 
 .mainArticle {
   display: flex;
@@ -596,7 +586,6 @@ max-width: 60rem;
   background-color: rgb(222, 222, 222);
   border: none;
   padding: 1rem;
-
 }
 
 .contactButton {
@@ -627,10 +616,9 @@ max-width: 60rem;
   text-align: start;
 }
 
-/* ----------------------------------------------------------------------------- */
-/* ------------------------------ About html ----------------------------------- */
-/* ----------------------------------------------------------------------------- */
-
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ About US html ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
 
 .aboutUsTitle {
   margin: 4rem 0rem;
@@ -765,19 +753,20 @@ max-width: 60rem;
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
 /* --------------------------------------------------------------------------- */
 
-/* ------------------------- Smaller than 990px (tablet) ------------------------- */
+
+
+/* ------------------------------ Smaller than 990px (tablet) ---------------------------- */
+
 @media (max-width: 990px) {
 
-/* -----------------------------------Hero Section---------------------------------------- */
+/* -----------------------------------Hero Section - Smaller than 990px (tablet) ---------------------------------------- */
 
   .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     max-width: 60rem;
-  
   }
   
   .hero-content {
@@ -812,7 +801,7 @@ max-width: 60rem;
   .hero-img-container {
     max-width: 30rem;
     position: relative;
-    }
+  }
   
   .hero-img {
     max-height: 30rem;
@@ -832,7 +821,7 @@ max-width: 60rem;
     left: 270px;
   }
 
-/* -----------------------------------Carousel Section---------------------------------------- */
+/* ----------------------------------- Carousel Section - Smaller than 990px (tablet) ---------------------------------------- */
 
   .carousel {
     display: flex;
@@ -869,8 +858,7 @@ max-width: 60rem;
     display: none;
   }
 
-/* -----------------------------------Projects Section---------------------------------------- */
-
+/* ----------------------------------- Projects Section - Smaller than 990px (tablet) ---------------------------------------- */
 
   .projects-container {
     display: flex;
@@ -926,7 +914,7 @@ max-width: 60rem;
     left: 0;
   }
 
-/* -----------------------------------Testimonial Section---------------------------------------- */
+/* ----------------------------------- Testimonial Section - Smaller than 990px (tablet) ---------------------------------------- */
 
   .testimonial { 
     background-color: rgb(47, 44, 59);
@@ -941,7 +929,7 @@ max-width: 60rem;
     margin: 2rem;
   }
 
-/* -----------------------------------Services Section---------------------------------------- */
+/* ----------------------------------- Services Section - Smaller than 990px (tablet) ---------------------------------------- */
 
   #services { 
     max-width: 53rem;
@@ -985,8 +973,7 @@ max-width: 60rem;
     font-weight: 500;
   }
 
-
-/* -----------------------------------Newsletter Section---------------------------------------- */
+/* ----------------------------------- Newsletter Section - Smaller than 990px (tablet) ---------------------------------------- */
 
   .newsletter {
     background-color: #ffc123;
@@ -1025,9 +1012,10 @@ max-width: 60rem;
 }
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
+
 @media (max-width: 766px) {
   
-/* ---------------------------- Hero Section - Smaller than 766px (mobile)------------------------------- */
+/* ---------------------------- Hero Section - Smaller than 766px (mobile) ------------------------------- */
 
   .hero {
     display: flex;
@@ -1035,7 +1023,6 @@ max-width: 60rem;
     justify-content: center;
     align-items: center;
     max-width: 60rem;
-  
   }
   
   .hero-content {
@@ -1072,7 +1059,7 @@ max-width: 60rem;
   .hero-img-container {
     max-width: 30rem;
     position: relative;
-    }
+  }
   
   .hero-img {
     max-height: 25rem;
@@ -1085,7 +1072,7 @@ max-width: 60rem;
     right: 250px;
     bottom: 250px;
   }
-  
+
   .hero-img-card2 {
     display: none;
     height: 16rem;
@@ -1094,12 +1081,7 @@ max-width: 60rem;
     left: 270px;
   }
 
-/* ----------------------------- Carousel Section - Smaller than 766px (mobile)---------------------------- */
-
-/*------ Nothing to do here -----------*/
-
 /* ------------------------------Projects Section - Smaller than 766px (mobile) ------------------------------- */
-
 
   .projects-container {
     display: flex;
@@ -1111,7 +1093,7 @@ max-width: 60rem;
   }
 
   .mainArticle h2 {
-  font-size: 2rem;
+    font-size: 2rem;
   }
   
   .articleSubtitle {
@@ -1169,7 +1151,7 @@ max-width: 60rem;
     left: 0;
   }
 
-/* ------------------------Testimonial Section - Smaller than 766px (mobile)----------------------------- */
+/* ------------------------ Testimonial Section - Smaller than 766px (mobile) ----------------------------- */
 
   .testimonial { 
     background-color: rgb(47, 44, 59);
@@ -1281,7 +1263,7 @@ max-width: 60rem;
     text-align: center;
   }
 
-/* --------------------------- ContactUs.HTML - Smaller than 766px (mobile) --------------------------- */
+/* --------------------------- Contact Us HTML - Smaller than 766px (mobile) --------------------------- */
 
   #main {
     width: 95%;
@@ -1314,10 +1296,12 @@ max-width: 60rem;
   margin: 0;
   padding: 0;
 }
+
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
 }
+
 .menu-button-container {
   display: none;
   height: 100%;
@@ -1327,10 +1311,14 @@ max-width: 60rem;
   justify-content: center;
   align-items: center;
 }
+
 #menu-toggle {
   display: none;
 }
-.menu-button, .menu-button::before, .menu-button::after {
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
   display: block;
   background-color: #646464;
   position: absolute;
@@ -1339,25 +1327,32 @@ max-width: 60rem;
   transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 2px;
 }
+
 .menu-button::before {
   content: '';
   margin-top: -8px;
 }
+
 .menu-button::after {
   content: '';
   margin-top: 8px;
 }
+
 #menu-toggle:checked + .menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
+
 #menu-toggle:checked + .menu-button-container .menu-button {
   background: rgba(151, 151, 151, 0);
 }
+
 #menu-toggle:checked + .menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
+
+/* ------------------------------ Hamburguer menu - Smaller than 990px (tablet)------------------------------ */
 
 @media (max-width: 990px) {
   
@@ -1423,12 +1418,3 @@ max-width: 60rem;
   }
 
 }
-
-
-/* ------------------------------ Alert ------------------------------ */
-
-/* Your CSS code goes here */
-
-/* ------------------------------ Sticky scroll bar ------------------------------ */
-
-/* Your CSS code goes here */
