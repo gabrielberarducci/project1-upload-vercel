@@ -74,7 +74,7 @@ La diagramacion de las tareas y el seguimiento del proyecto fue llevado a cabo u
 Todo el codigo fue escrito y debugueado usando la herramienta VSCode y el navegador Chrome, bajo el sistema operativo Windows 11.  
 El versionado y gestion de archivos fue realizado con Git y almacenado en la plataforma GitHub con acceso publico para todo el mundo atraves del siguiente <a href="https://github.com/gabrielberarducci/project1-upload-vercel">link.</a>
 
-Finalmente el deploy se hizo sobre la plataforma de uso gratuito Vercel, y pueden acceder a la version de produccion atraves del siguiente <a href="hhttps://gabrielberarducci.vercel.app/">link.</a>
+Finalmente el deploy se hizo sobre la plataforma de uso gratuito Vercel, y pueden acceder a la version de produccion atraves del siguiente <a href="https://gabrielberarducci.vercel.app/">link.</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -105,7 +105,7 @@ Presentation Link: Under Construction.
 
 <!-- ACKNOWLEDGMENTS -->
 
-## agradecimientos
+## Agradecimientos
 
 Principalmente a la Academia de Ironhack por hacer posible este bootcamp y particularmente al profesor "Diego" quien comparte sus conocimientos y tiempo con todos nosotros cada semana.
 A mis compañeros y amigos que me ayudan cada semana y me mantienen motivado para continuar este camino. 
@@ -126,3 +126,4 @@ La creacion del menu Hamburguesa, fue un desafio que enfrente casi al ultimo del
 Si bien la tarea se completo segun lo planeado, me hubiera gustado haberla completado sin la necesidad de recibir tanta ayuda.
 ## Grande Error
 
+Under Construction...
