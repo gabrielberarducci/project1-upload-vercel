@@ -99,7 +99,7 @@ Gabriel Berarducci - gabrielberarducci@gmail.com
 
 Project Link: <a href="https://github.com/gabrielberarducci/project1-upload-vercel">GitHub Project</a>
 
-Presentation Link: Under Construction.
+Presentation Link: En construccion.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,6 +124,11 @@ Esta es una de las herramientas que aun no consigo dominar correctamente, pero q
 
 La creacion del menu Hamburguesa, fue un desafio que enfrente casi al ultimo del proyecto y de los mas dificiles de realizar. 
 Si bien la tarea se completo segun lo planeado, me hubiera gustado haberla completado sin la necesidad de recibir tanta ayuda.
+
+El carousel de marcas fue tambien uno de los problemas mas grandes con el cual me todo lidear, y uno de los que mas tiempo me llevo. 
+Creo que aun esta pendiente de revisar y mejorar, ya que si bien a ojos del usuario final, el efecto funciona, realmente el desarrollo fue ineficiente. 
+Esto es una de las tareas pendiente por mejorar en la siguiente iteracion. 
+
 ## Grande Error
 
-Under Construction...
+En construccion...
