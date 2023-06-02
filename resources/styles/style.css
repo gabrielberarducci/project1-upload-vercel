@@ -47,18 +47,18 @@ a {
 }
 
 .loading-spinner {
-  border: 0px solid #f3f3f3;
-  border-top: 5px solid #e9c200;
+  border: 10px solid #f9f9f9;
+  border-top: 10px solid #072ac8;
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  animation: spin 2s linear infinite;
+  width: 300px;
+  height: 300px;
+  animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-  0% { transform:rotate(0deg); }
+  0% { transform:matrix(1)(0deg); }
   100% { transform: rotate(360deg); }
-}
+} 
 
 /* ------------------------------ Back to TOP button ------------------------------ */
 
@@ -837,7 +837,6 @@ max-width: 60rem;
   .carousel {
     display: flex;
     align-items: center;
-    overflow: none;
     padding-top: 5rem;
     padding-bottom: 1rem;
     padding-left: 5rem;
@@ -855,7 +854,6 @@ max-width: 60rem;
   @keyframes carousel-animation {}
 
   .carousel-item {
-    flex: 0 0 30%;
     padding-bottom: 3rem;
     align-items:center;
     justify-content: center;
