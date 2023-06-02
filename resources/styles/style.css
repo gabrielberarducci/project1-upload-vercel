@@ -460,43 +460,32 @@ a {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 90%;
-  padding: 6rem 0rem;
-}
-#footer li{
-  list-style-type: none;
-  margin-bottom: 0.5em;
+  width: 100%;
+  margin: 6rem 0rem;
+  padding: 0rem 0.3rem;
 }
 
-#footer .nav--links{
-  width:100%;
-  display: flex;
-  justify-content: space-around;
+.footer-left img {
+  width: 6rem;
 }
+
 .footer-left address {
   color: #626262;
   width: 60%;
   padding-top: 1rem;
 }
 
-.table {
-  display: table;
+.footer-right {
+  width: 35%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
-.row {
-  display: table-row;
-}
-
-.col {
-  display: table-cell;
-  padding: 0rem 2rem 2rem 1rem;
-}
-
-.col a {
-  text-decoration: none;
-  color: #072ac8;
+.footer-right a {
   font-weight: 500;
-  font-size: 0.9rem;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -1252,9 +1241,9 @@ max-width: 60rem;
   #footer {
     display: flex;
     flex-direction: column;
-    justify-items: stretch;
+    justify-items: center;
     width: 100%;
-    padding: 2rem;
+    margin: 0rem;
     padding-bottom: 6rem;
   }
   
@@ -1262,6 +1251,7 @@ max-width: 60rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
   }
 
   .footer-left address {
@@ -1270,26 +1260,12 @@ max-width: 60rem;
     padding-top: 1rem;
   }
   
-  .table {
-    margin-top: 2rem;
+  .footer-right {
+    width: 60%;
+  }
+
+  .footer-right a {
     text-align: center;
-    display: table;
-  }
-  
-  .row {
-    display: table-row;
-  }
-  
-  .col {
-    display: table-cell;
-    padding: 0rem 3rem 2rem 3rem;
-  }
-  
-  .col a {
-    text-decoration: none;
-    color: #072ac8;
-    font-weight: 500;
-    font-size: 0.9rem;
   }
 
 /* --------------------------- ContactUs.HTML - Smaller than 766px (mobile) --------------------------- */
