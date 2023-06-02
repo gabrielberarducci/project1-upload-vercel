@@ -8,11 +8,12 @@
         <link rel="stylesheet" href="resources/styles/style.css" />
 
     </head>
+    <!-- Tanto el loading, header, Newsletter Section y footer han sido heredados del index y no han sufrido ningun tipo de modificacion en esta pagina. -->
     <body>
         <div class="loading">
             <div class="loading-spinner"></div>
         </div>
-
+        
         <header class="header top-nav">
             <a href="/index.html">
                 <img class="header-logo" src="/resources/images/logos/circle.svg" alt="Circle Logo">
@@ -31,11 +32,12 @@
                 <button class="header-button button" type="button">Contact Us</button>
             </a>
         </header>
-
+        <!-- Esta etiqueta se usa de referencia para insertar el proyecto principal al cargar la pagina apartir de un link en la pagina index.html 
+        El id del proyecto se extrae directamente desde la URL -->
         <div id="mainProject"></div>
-
         <section class="projects-container">
             <h2 class="title">Other Projects</h2>
+            <!-- Esta etiqueta se usa de referencia para insertar 3 proyectos aleatorios al cargar la pagina -->
             <div class="articles-container"></div>
         </section>
 

@@ -1,3 +1,7 @@
+/* Muestra una pantalla de carga al entra a cualquier pagina del sitio. 
+Tiene configurado un retardo de apenas 500ms para que el efecto sea apreciable
+por mas que la carga de la pagina muy demasiado rapida */
+
 // Loading effect
 window.addEventListener('load', function() {
     const loading = document.querySelector('.loading');

@@ -9,17 +9,17 @@
         <link rel="stylesheet" href="resources/styles/style.css" />
 
     </head>
+        <!-- Tanto el loading, header y footer han sido heredados del index y no han sufrido ningun tipo de modificacion en esta pagina. -->
     <body>
         <div class="loading">
             <div class="loading-spinner"></div>
         </div>
-
+        <!-- Esta seccion solo tiene las etiquetas de los mensajes de Exito o Error al momento de enviar el formulario. 
+        Las mismas se encuentran invisibles y solo se muestran momentaneamente cuando es necesario. -->
         <div class="result">
             <p id="suceedMessage" hidden = "true">Thank you! Your Message Have Been Sent.</p>
             <p id="errorMessage" hidden = "true">Something went wrong!!! Please try again.</p>
         </div>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <header class="header top-nav">
             
@@ -44,7 +44,7 @@
                 <button class="header-button button" type="button">Contact Us</button>
             </a>
         </header>
-        
+        <!-- Aqui tenemos el formulario de contacto. -->
         <div id="main">
             <h1 class="title">Contact Us</h1>
             <form action="" id="form">
