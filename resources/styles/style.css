@@ -267,14 +267,14 @@ a {
   align-items: center;
   flex-wrap: wrap;
   justify-content:space-around;
-  padding: rem 0rem;
+  padding: 0rem 0rem;
 }
 
 .article {
   background-color: white;
+  max-width: 19.5rem;
   padding: 2rem;
   height: 30rem;
-  width: 19.3rem;
   margin: 0.5rem;
   position: relative;
 }
@@ -294,7 +294,7 @@ a {
 }
 
 .project-img {
-  width: 19.3rem;
+  width: 100%;
   height: 12rem;
   position: absolute;
   top: 0;
@@ -902,7 +902,6 @@ max-width: 60rem;
     background-color: white;
     padding: 2rem;
     height: 30rem;
-    width: 24rem;
     margin: 1.0rem;
     position: relative;
   }
@@ -922,7 +921,6 @@ max-width: 60rem;
   }
 
   .project-img {
-    width: 24rem;
     height: 12rem;
     object-fit: cover;
     position: absolute;
@@ -1038,7 +1036,6 @@ max-width: 60rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     max-width: 60rem;
   
   }
@@ -1051,6 +1048,7 @@ max-width: 60rem;
   
   .hero h1 {
     text-align: center;
+    padding: 1rem 2rem;
     font-size: 2.2rem;
     margin-bottom: 1.5rem;
   }
@@ -1059,13 +1057,13 @@ max-width: 60rem;
     color: #626262;
     text-align: center;
     font-size: 1.2rem;
-    margin: 1rem 4rem 3rem 0rem;
+    margin: 1rem 4rem 3rem 3rem;
   }
   
   .hero label {
     color: #626262;
     font-weight: 500;
-    padding-left: 8rem;
+    padding-left: 5rem;
     padding-right: 0.5rem;
   }
   
@@ -1100,7 +1098,7 @@ max-width: 60rem;
 
 /* ----------------------------- Carousel Section - Smaller than 766px (mobile)---------------------------- */
 
-/*------ Hothing to do here -----------*/
+/*------ Nothing to do here -----------*/
 
 /* ------------------------------Projects Section - Smaller than 766px (mobile) ------------------------------- */
 
@@ -1112,7 +1110,20 @@ max-width: 60rem;
     justify-content:space-between;
     align-content: center;
     margin: 2rem 0rem;
-    
+  }
+
+  .mainArticle h2 {
+  font-size: 2rem;
+  }
+  
+  .articleSubtitle {
+    width: 60%;
+    font-size: 1rem;
+  }
+
+  .date {
+    width: 40%;
+    font-size: 1rem;
   }
 
   .title {
@@ -1176,7 +1187,7 @@ max-width: 60rem;
   }
 
   .central-text {
-    padding: 2rem 7rem;
+    padding: 2rem 2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
