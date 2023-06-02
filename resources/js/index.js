@@ -1,43 +1,10 @@
-/* Crea tu propia lógica para hacer fetch de 3 posts distintos y enseñarlos en la homepage con DOM manipulation */
-
-// Loading effect
-window.addEventListener('load', function() {
-  const loading = document.querySelector('.loading');
-  this.setTimeout(() => {
-    loading.style.display = 'none';    
-  }, 500);
-
-});
-
-
-
-function scrollFunction() {
-  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
-
-  if (document.documentElement.scrollTop > 300) {
-    scrollToTopBtn.style.display = "block";
-  } else {
-    scrollToTopBtn.style.display = "none";
-  }
-}
-function scrollToTop() {
-  document.documentElement.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-}
-
-  
 // create the articles for the Projects sections 
-getPosts().then((data) => {
+getPosts().then((data) => { //hago una llamada a la funcion getPost que vive en el archivo projects.js, esta funcion devuelve un.json con los post en crudo. 
   let projectsTabsParent = document.querySelector(".articles-container");
+  //Con la funcion newRandomChild que vive en project.js inserto la informacion que deseo en mi HTML.
+  //En este caso usamos una variacion de la funcion, al pasarle un tercer parametro opcional "id", le indico especificamente el numero de post deseo insertar.
+  //de esta manera, logramos que en el home siempre se muestren los mismos 3 proyectos. 
   newRandomChild(projectsTabsParent,data,1);
   newRandomChild(projectsTabsParent,data,2);
   newRandomChild(projectsTabsParent,data,3);
 })
-
-
-// Scroll to TOP section
-window.onscroll = function() {
-  scrollFunction();
-};
