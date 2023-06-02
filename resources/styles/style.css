@@ -644,18 +644,20 @@ max-width: 60rem;
   width: 100%;
 }
 
+#members h1 {
+  margin: 2rem;
+}
+
 #pictures {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 60rem;
-  width: 100%;
-  height: 40rem;
+  width: 90%;
 }
 
 .card1 .card-front{
-  width: 25rem;
   height: 30rem;
   padding: 2rem;
   font-size: 1.5rem;
@@ -666,7 +668,6 @@ max-width: 60rem;
 }
 
 .card2 .card-front{
-  width: 25rem;
   height: 30rem;
   padding: 2rem;
   font-size: 1.5rem;
@@ -680,6 +681,7 @@ max-width: 60rem;
   width: 23.4rem;
   height: 30rem;
   perspective: 800px;
+  margin: 2rem 0rem;
 }
 
 .card-front,
@@ -732,7 +734,9 @@ max-width: 60rem;
 }
 
 #videos iframe {
-  max-width: 38rem;
+  width: 90%;
+  max-width: 30rem;
+  height: 20rem;
 }
 
 .videoTags p {
@@ -745,11 +749,12 @@ max-width: 60rem;
 }
 
 #podcasts {
-  width: 100%;
+  width: 90%;
   max-width: 60rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 #podcasts iframe {
@@ -1270,38 +1275,26 @@ max-width: 60rem;
 
   #main {
     width: 95%;
-    }
+  }
     
-    #main h1 {
-      font-size: 2rem;
-    }
+  #main h1 {
+    font-size: 2rem;
+  }
 
-    .emailAndPhone {
-      display: flex;
-      flex-direction: column;
-      width: auto;
-    }
-    
-    .emailContainer {
-      width: auto;
-    }
-    
-    .phoneContainer {
-      width: auto;
-    }
- 
-/* --------------------------- AboutUs.HTML - Smaller than 766px (mobile) --------------------------- */
-
-    #videos {
-      margin-top: 25rem;
-    }
-
-    .card {
-      margin: 2rem 0rem;
-    }
-
+  .emailAndPhone {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  
+  .emailContainer {
+    width: auto;
+  }
+  
+  .phoneContainer {
+    width: auto;
+  }
 }
-
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
 .menu {
