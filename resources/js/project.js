@@ -2,8 +2,8 @@
 /* ADVANCED: consigue que la info del post funcione dinámicamente y enseñe un post u otro según la URL */
 
 
-function getPosts() {
-    return fetch("https://jsonplaceholder.typicode.com/posts")
+async function getPosts() {
+    return await fetch("https://jsonplaceholder.typicode.com/posts")
         .then((response) => {
             if (response.ok)
                 return response.json();
