@@ -7,7 +7,6 @@ async function getPosts() {
         .then((response) => {
             if (response.ok)
                 return response.json();
-
             else
                 throw Error("Failed to get Posts data");
         })
