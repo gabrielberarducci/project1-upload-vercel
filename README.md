@@ -99,7 +99,7 @@ Gabriel Berarducci - gabrielberarducci@gmail.com
 
 Project Link: <a href="https://github.com/gabrielberarducci/project1-upload-vercel">GitHub Project</a>
 
-Presentation Link: En construccion.
+Presentation Link: <a href="https://www.canva.com/design/DAFlPe5dwtE/bL8vyxL8R0L_0BtWN9fHmA/view?utm_content=DAFlPe5dwtE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Canva Presentation</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
