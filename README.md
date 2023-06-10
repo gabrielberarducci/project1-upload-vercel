@@ -131,4 +131,6 @@ Esto es una de las tareas pendiente por mejorar en la siguiente iteracion.
 
 ## Grande Error
 
-En construccion...
+Mi gran error fue no pedir ayuda antes.
+Creo que perdí mucho tiempo intentando hacer las cosas solo, con la idea erronea de que si lo he aprendido debería saber hacerlo por mi cuenta.
+Justamente, la gran ventaja de este mundo, es la gran comunidad que forma parte y comparten sus conocimientos entre todos. 
